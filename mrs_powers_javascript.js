@@ -11,12 +11,18 @@ $(document).ready(function(){
   setTimeout(myTimeout2,8000);
   /* this determines how much time before the question marks appear that lead to the senior fac page */
 
-  $("button").hover(function(){
-    $(this).css("font-size", "30px");
-  }, function(){
-    $(this).css("font-size", "20px");
-    /* https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover this makes the buttons grow when hovered over and return to orginial size when not hovered */
-  });
+    $("button").hover(function(){
+      $(this).css("background-color", "#fcc7e8");
+    }, function(){
+      $(this).css("background-color", "#ffedf8");
+      /* https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover this makes the button background color change on hover and go back to the orignial color after not being hovered on */
+    });
+    $("button").hover(function(){
+      $(this).css("color", "#5e1141");
+    }, function(){
+      $(this).css("color", "#c62f8d");
+      /* https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover this makes the button text color change on hover and go back to the orignial color after not being hovered on*/
+    });
   the_greetings();
 });
 
@@ -63,7 +69,6 @@ function the_greetings(){
   else {
     greeting = "Good Evening!"
   }
-  document.getElementById('greetings').innerHTML = greeting
-  console.log(greeting)
+  document.getElementById('greetings').innerHTML = greeting;
   // https://www.w3schools.com/js/js_if_else.asp this puts a greeting at the top of the div
 }
