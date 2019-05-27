@@ -1,0 +1,165 @@
+body{
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  background-color: #ffeff9;
+  margin-bottom: 30px;
+}
+
+h1{
+  font-family: 'Rochester', cursive;
+  font-size: 65px;
+  text-decoration: underline;
+  color: #ea38a6;
+  text-shadow: 2px 3px #993472;
+}
+
+h2{
+  color: #c62f8d;
+  font-family: 'Rochester', cursive;
+}
+
+p{
+  text-align: left;
+  text-indent: 50px;
+  line-height: 1.9;
+  font-size: 17px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Montaga', serif;
+}
+
+button{
+  text-align: center;
+  color: #c62f8d;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montaga', serif;
+  background-color: #ffedf8;
+  box-shadow: 5px 5px #993472;
+  margin: 35px auto;
+  display: block;
+
+}
+
+ol{
+  text-align: center;
+  font-family: 'Montaga', serif;
+  list-style-position: inside;
+ /*https://stackoverflow.com/questions/19364836/how-to-center-ordered-list-number-in-html <-- I used this to figure out how to center the numbers in my list */
+}
+
+div{
+  display:none;
+  text-align: center;
+}
+
+table,td,th {
+  border:1px solid black;
+  border-collapse: collapse;
+  /* https://www.w3schools.com/cssref/pr_border-collapse.asp*/
+  padding: 20px;
+  /* https://www.w3schools.com/tags/att_table_cellpadding.asp */
+  margin: 0 auto;
+  border-color: #ad4e88;
+}
+table{
+  box-shadow: 5px 5px #993472;
+  font-family: 'Montaga', serif;
+}
+th{
+  color: #721950;
+}
+a{
+  color: #bc1c7f;
+  font-size: 20px;
+  margin-right: 15px;
+}
+table a{
+  font-size: 17px;
+}
+.center{
+  text-align: center;
+}
+
+/* home page */
+.asking{
+  color: #ea38a6;
+  text-shadow: 1px 1px #993472;
+  font-size: 50px;
+  display: none;
+}
+#nineteen{
+  line-height: 5;
+}
+
+/* seniorfac */
+
+.fish{
+  width: 250px;
+  height: 150px;
+}
+.sfac{
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 450px;
+  border: 2px solid #8e045a;
+  font-family: 'Domine', serif;
+  color: #c62f8d;
+  box-shadow: 5px 5px #993472;
+
+  /* https://codepen.io/Tipue/pen/CBbna I used this to center my div
+  https://www.w3schools.com/css/css_boxmodel.asp I used this to make the box */
+}
+.sfac p{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 61px;
+  line-height: 1;
+  font-size: 23px;
+  margin-top: 20px;
+}
+.confetti{
+    background-image: url(https://media.giphy.com/media/duta1FPnQ8jB65TWHy/giphy.gif);
+    position:absolute;
+    top: 0px;
+    left:0px;
+    width:1500px;
+    height:700px;
+    display: block;
+}
+#fishy_font{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+#date{
+  margin-top: 20px;
+}
+
+/* kind words */
+.smaller p{
+margin-left: 150px;
+margin-right: 150px;
+}
+.winnie{
+  display: block;
+}
+.winnie img{
+  width: 200px;
+  height: 150px;
+}
+.right{
+  margin-right: 50px;
+}
+.left{
+  margin-left: 45px;
+}
+.name{
+  color: #d85ba8;
+}
+.no_underline{
+  text-decoration: none;
+}
